@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   # main 브랜치에 push될 때 실행
   push:
-    branches: [ main ]
+    branches: [ dev ]
   
   # 수동으로 워크플로우를 실행할 수 있도록 설정
   workflow_dispatch:
